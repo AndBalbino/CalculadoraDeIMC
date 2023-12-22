@@ -4,3 +4,83 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(/imagens/training-828726_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+    
+}
+
+.hide{
+    display: none;
+
+}
+
+.container{
+    border: 3px solid black;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 2rem;
+    background-color: #1d1e33;
+    background-size: cover;
+}
+
+#calc-container h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label{
+    font-weight: bold;
+    margin-bottom: .6rem;
+    color: #ccc;
+    
+}
+
+.form-control input{
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+
+}
+
+.action-controls{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+
+}
+
+button{
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background-color: #F44236;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 1;
+}
